@@ -48,7 +48,7 @@ export const getInterior = () => {
     return [...database.interior]
 }
 export const getTechnology = () => {
-    return [...database.technoloy]
+    return [...database.technology]
 }
 export const getWheels = () => {
     return [...database.wheels]

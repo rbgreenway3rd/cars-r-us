@@ -1,6 +1,15 @@
 import { getColor, setColor } from "./database.js"
 
-const paint = getColor()
+const paints = getColor()
+
+document.addEventListener(
+    "change",
+    (event) => {
+        if (event.target.name === "paint") {
+            setColor(parseInt(event.target.value))
+        }
+    }
+)
 
 
 
