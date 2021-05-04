@@ -5,7 +5,7 @@ const database = {
         { id: 3, style: "Firebrick Red", price: 300.50 },
         { id: 4, style: "Spring Green", price: 350.50 }
     ],
-    interior: [
+    interiors: [
         {id: 1, style: "Beige Fabric", price: 250.50 },
         {id: 2, style: "Charcoal Fabric", price: 250.50},
         {id: 3, style: "White Leather", price: 350.50},
@@ -45,7 +45,7 @@ export const getColor = () => {
     return [...database.paints]
 }
 export const getInterior = () => {
-    return [...database.interior]
+    return [...database.interiors]
 }
 export const getTechnology = () => {
     return [...database.technology]
